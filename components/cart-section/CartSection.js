@@ -29,7 +29,7 @@ const CartSection = () => {
         </Flex>
         <Button
           size='sm'
-          color='#FFF'
+          colorScheme='red'
           py='0'
           px='24px'
           fontSize='14px'
@@ -52,7 +52,7 @@ const CartSection = () => {
               <OrderCard
                 key={index}
                 index={order.id}
-                title={order.name}
+                name={order.name}
                 price={order.price}
                 quantity={order.quantity}
                 note={order.note}
