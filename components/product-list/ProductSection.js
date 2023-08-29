@@ -12,7 +12,9 @@ const ProductSection = () => {
           return (
             <ProductCard
               key={index}
+              id={product.id}
               name={product.name}
+              note={product.note}
               price={product.price}
             />
           );

@@ -4,7 +4,13 @@ import { Grid } from '@chakra-ui/react';
 
 export default function Home() {
   return (
-    <Grid w='full' templateColumns='2.5fr 1fr' mt='32px' mx='128px'>
+    <Grid
+      w='100vw'
+      templateColumns='2fr 1fr'
+      mt='32px'
+      px='64px'
+      gridGap='64px'
+    >
       <ProductSection />
       <CartSection />
     </Grid>
